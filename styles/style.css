@@ -1,0 +1,291 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/RobotoRegular/subset-Roboto-Regular.eot');
+    src: url('../fonts/RobotoRegular/subset-Roboto-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/RobotoRegular/subset-Roboto-Regular.woff2') format('woff2'), url('../fonts/RobotoRegular/subset-Roboto-Regular.woff') format('woff'), url('../fonts/RobotoRegular/subset-Roboto-Regular.ttf') format('truetype'), url('../fonts/RobotoRegular/subset-Roboto-Regular.svg#Roboto-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Medium ';
+    src: url('../fonts/RobotoMedium/subset-Roboto-Medium.eot');
+    src: url('../fonts/RobotoMedium/subset-Roboto-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/RobotoMedium/subset-Roboto-Medium.woff2') format('woff2'), url('../fonts/RobotoMedium/subset-Roboto-Medium.woff') format('woff'), url('../fonts/RobotoMedium/subset-Roboto-Medium.ttf') format('truetype'), url('../fonts/RobotoMedium/subset-Roboto-Medium.svg#Roboto-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url('../fonts/RobotoBold/subset-Roboto-Bold.eot');
+    src: url('../fonts/RobotoBold/subset-Roboto-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/RobotoBold/subset-Roboto-Bold.woff2') format('woff2'), url('../fonts/RobotoBold/subset-Roboto-Bold.woff') format('woff'), url('../fonts/RobotoBold/subset-Roboto-Bold.ttf') format('truetype'), url('../fonts/RobotoBold/subset-Roboto-Bold.svg#Roboto-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Black';
+    src: url('../fonts/RobotoBlack/subset-Roboto-Black.eot');
+    src: url('../fonts/RobotoBlack/subset-Roboto-Black.eot?#iefix') format('embedded-opentype'), url('../fonts/RobotoBlack/subset-Roboto-Black.woff2') format('woff2'), url('../fonts/RobotoBlack/subset-Roboto-Black.woff') format('woff'), url('../fonts/RobotoBlack/subset-Roboto-Black.ttf') format('truetype'), url('../fonts/RobotoBlack/subset-Roboto-Black.svg#Roboto-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    padding: 25px 0 25px;
+    background-color: #ffff;
+}
+
+.header .conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo {
+    padding-right: 43px;
+}
+
+.header .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .nav .items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteiner {
+    max-width: 1202px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.header .nav .items .item .link {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121;
+    padding-left: 50px;
+}
+
+.header .nav .items .item:hover .link {
+    color: #2196F3;
+}
+
+.header .contact-link:hover a {
+    color: #2196F3;
+}
+
+.header .contact {
+    display: flex;
+}
+
+.header .contact a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #757575;
+}
+
+.header .contact .mail {
+    padding-right: 50px;
+}
+
+
+/*SECTION BANNER*/
+
+.banner {
+    display: block;
+    background: #2F303A;
+    background-size: cover;
+}
+
+.banner .block {
+    text-align: center;
+    padding: 200px 0 200px;
+}
+
+.banner .block-title {
+    display: inline-block;
+    max-width: 696px;
+}
+
+.banner .title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.banner .button {
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px 32px;
+}
+
+
+/*SECTION MAIN*/
+
+.main {
+    background: #E5E5E5;
+    padding: 95px;
+}
+
+.main .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 95px;
+}
+
+.main .wrap {
+    max-width: 270px;
+}
+
+.main .wrapper .wrap .title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #212121;
+    margin-bottom: 10px;
+}
+
+.main .wrapper .wrap .text {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.main .holder .title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #212121;
+    margin-bottom: 50px;
+}
+
+.main .holder .picture {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/*SECTION INNER*/
+
+.inner {
+    background: #F5F4FA;
+}
+
+.inner .figures {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 95px;
+}
+
+.inner .figures .img {
+    width: 270px;
+    height: 260px;
+}
+
+.inner .figure {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.inner .figures .text {
+    background: #FFFFFF;
+}
+
+.inner .inner-title .title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #212121;
+    padding: 95px 0 50px;
+}
+
+.inner .figures .figure .text .name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #212121;
+    padding: 30px 0 10px;
+}
+
+.inner .figures .figure .text .position {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #757575;
+    padding-bottom: 30px;
+}
+
+
+/*FOOTER*/
+
+.footer {
+    background: #2F303A;
+}
+
+.footer .all {
+    padding: 60px 0;
+}
+
+.footer .all .image .logo .logolight {
+    padding-bottom: 20px;
+}
+
+.footer .all .data {
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-bottom: 9px;
+}
+
+.footer .all .information .mail {
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF99;
+    padding-bottom: 9px;
+}
+
+.footer .all .contact .tel {
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF99;
+}
