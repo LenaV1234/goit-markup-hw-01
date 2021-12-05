@@ -42,7 +42,7 @@ body {
     font-family: 'Roboto', Arial, sans-serif;
 }
 
-a {
+.header .nav .items .link {
     text-decoration: none;
 }
 
@@ -57,8 +57,16 @@ a {
     justify-content: space-between;
 }
 
-.header .logo {
+.header .box .logo .logo-image {
+    text-decoration: none;
     padding-right: 43px;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    width: 145px;
+    height: 31px;
 }
 
 .header .box {
@@ -225,7 +233,7 @@ a {
     border-radius: 0px 0px 4px 4px;
 }
 
-.inner .figures .text {
+.inner .figures .figure {
     background: #FFFFFF;
 }
 
@@ -238,7 +246,7 @@ a {
     padding: 95px 0 50px;
 }
 
-.inner .figures .figure .text .name {
+.inner .figures .figure .name {
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -247,7 +255,7 @@ a {
     padding: 30px 0 10px;
 }
 
-.inner .figures .figure .text .position {
+.inner .figures .figure .position {
     font-size: 16px;
     line-height: 19px;
     text-align: center;
@@ -266,8 +274,14 @@ a {
     padding: 60px 0;
 }
 
-.footer .all .image .logo .logolight {
+.footer .all .image .logo {
     padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    text-decoration: none;
 }
 
 .footer .all .data {
